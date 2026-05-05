@@ -1,0 +1,29 @@
+IDENTIFY [YSCE]FORTIFICATION_BUNKER_COASTAL
+HTRADIUS 30m
+STRENGTH 150
+MINIDAMG 9
+
+NMTURRET 2
+TURRETPO 0 0m 1.5m 4.4m 0deg 0deg 0deg   # Number x y z h p b
+TURRETPT 0 -5deg 30deg 0deg           # Number MinPitch MaxPitch NeutralPitch
+TURRETHD 0 -55deg 55deg 0deg               # Number MinHdg MaxHdg NeutralHdg
+TURRETAM 0 999999999999                              # Ammo
+TURRETIV 0 10sec                              # Number ShootingInterval
+TURRETNH 0 TURRET
+TURRETNP 0 GUN
+TURRETAR 0 FALSE
+TURRETGD 0 TRUE
+TURRETCT 0 GUNNER                            # Controlled by PILOT or GUNNER
+TURRETRG 0 23500m
+TURRETPW 0 10
+TURRETPO 1 -0.5m 1.5m 4.4m 0deg 0deg 0deg   # Number x y z h p b
+TURRETPT 1 -5deg 40deg 0deg           # Number MinPitch MaxPitch NeutralPitch
+TURRETHD 1 -55deg 55deg 0deg               # Number MinHdg MaxHdg NeutralHdg
+TURRETAM 1 999999999999                              # Ammo
+TURRETIV 1 0.2sec                              # Number ShootingInterval
+TURRETNM 1 AAGUN
+TURRETAR 1 TRUE
+TURRETGD 1 TRUE
+TURRETCT 1 GUNNER                            # Controlled by PILOT or GUNNER
+TURRETRG 1 1500m
+TURRETPW 1 1

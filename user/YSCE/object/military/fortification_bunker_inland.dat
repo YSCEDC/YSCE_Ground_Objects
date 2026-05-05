@@ -1,0 +1,17 @@
+IDENTIFY [YSCE]FORTIFICATION_BUNKER_INLAND
+HTRADIUS 30m
+STRENGTH 150
+MINIDAMG 9
+
+NMTURRET 1
+TURRETPO 0 0m 1.3m 1.4m 0deg 0deg 0deg   # Number x y z h p b
+TURRETPT 0 -5deg 40deg 0deg           # Number MinPitch MaxPitch NeutralPitch
+TURRETHD 0 -55deg 55deg 0deg               # Number MinHdg MaxHdg NeutralHdg
+TURRETAM 0 999999999999                              # Ammo
+TURRETIV 0 0.2sec                              # Number ShootingInterval
+TURRETNH 0 GUN
+TURRETAR 0 TRUE
+TURRETGD 0 TRUE
+TURRETCT 0 GUNNER                            # Controlled by PILOT or GUNNER
+TURRETRG 0 1500m
+TURRETPW 0 1
