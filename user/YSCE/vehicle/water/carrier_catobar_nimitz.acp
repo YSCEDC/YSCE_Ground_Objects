@@ -1,0 +1,12 @@
+user/YSCE/ground/carrier_catobar_nimitz_deck.srf
+user/YSCE/ground/carrier_catobar_nimitz_wire.srf
+user/YSCE/ground/carrier_catobar_nimitz_cat.srf
+user/YSCE/null.srf
+ILS -3.45m 20.0m -84.25m 189deg 3.5deg 0deg 6000m
+VIEWPOINT TRUE
+BRIDGEPOS 20.25m 29.25m -39.75m
+
+ARRESTINGWIRE -16.41m 20.05m -104.32m 14.73m 20.05m -99.74m
+ARRESTINGWIRE -18.08m 20.05m -92.99m 13.06m 20.05m -88.41m
+ARRESTINGWIRE -19.75m 20.05m -81.67m 11.40m 20.05m -77.09m
+ARRESTINGWIRE -21.41m 20.05m -70.34m 9.73m 20.05m -65.76m

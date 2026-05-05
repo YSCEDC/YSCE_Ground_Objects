@@ -1,0 +1,8 @@
+user/YSCE/ground/corvette_visby_deck.srf
+user/YSCE/null.srf
+user/YSCE/null.srf
+user/YSCE/null.srf
+VIEWPOINT FALSE
+
+REM Uncomment the next line if the aircraft may collide with an obstacle when taxiing, and it must not auto-taxi.
+REM NOAUTOTAXI
