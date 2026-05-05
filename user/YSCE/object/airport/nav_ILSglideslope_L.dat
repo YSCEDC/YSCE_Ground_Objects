@@ -1,0 +1,5 @@
+IDENTIFY [YSCE]NAV_ILS_LEFT
+HTRADIUS 50m
+STRENGTH 5
+CARRIER user/YSCE/ground/nav_ILSglideslope_L.acp
+
