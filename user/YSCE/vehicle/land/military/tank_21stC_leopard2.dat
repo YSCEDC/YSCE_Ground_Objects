@@ -1,0 +1,21 @@
+IDENTIFY [YSCE]TANK_21stC_LEOPARD2
+HTRADIUS 5m
+STRENGTH 11
+MAXSPEED 70km/h
+MAXROTAT 30deg
+ANTIGRND TRUE
+HUGROUND TRUE
+GRNDTYPE TANK
+
+NMTURRET 1
+TURRETPO 0 0.0m 3.0m -1.47m 0deg 0deg 0deg   # Number x y z h p b
+TURRETPT 0 -10deg 45deg 0deg        # Number MinPitch MaxPitch NeutralPitch
+TURRETHD 0 -180deg 180deg 0deg               # Number MinHdg MaxHdg NeutralHdg
+TURRETAM 0 3000                             # Ammo
+TURRETIV 0 10sec                              # Number ShootingInterval
+TURRETNH 0 TURRET                       # DNM Node Name (Heading Rotation)
+TURRETNP 0 GUN                        # DNM Node Name
+TURRETGD 0
+TURRETCT 0 GUNNER                            # Controlled by PILOT or GUNNER
+TURRETRG 0 4000m
+TURRETPW 0 7

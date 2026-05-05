@@ -1,0 +1,21 @@
+IDENTIFY [YSCE]APC_21stC_BOXER
+HTRADIUS 5m
+STRENGTH 6
+MAXSPEED 100km/h
+MAXROTAT 30deg
+ANTIGRND FALSE
+HUGROUND TRUE
+GRNDTYPE VEHICLE
+
+NMTURRET 1
+TURRETPO 0 0.1m 3.1m -2.33m 0deg 0deg 0deg   # Number x y z h p b
+TURRETPT 0 -10deg 40deg 0deg        # Number MinPitch MaxPitch NeutralPitch
+TURRETHD 0 -180deg 180deg 0deg               # Number MinHdg MaxHdg NeutralHdg
+TURRETAM 0 3000                             # Ammo
+TURRETIV 0 0.1sec                              # Number ShootingInterval
+TURRETNH 0 APC_TURRET                       # DNM Node Name (Heading Rotation)
+TURRETNP 0 APC_GUN                        # DNM Node Name
+TURRETGD 0
+TURRETCT 0 GUNNER                            # Controlled by PILOT or GUNNER
+TURRETRG 0 2000m
+TURRETPW 0 1

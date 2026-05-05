@@ -1,0 +1,31 @@
+IDENTIFY [YSCE]SPAA_21stC_BOXER-SKYRANGER
+HTRADIUS 5m
+STRENGTH 6
+MAXSPEED 100km/h
+MAXROTAT 30deg
+ANTIGRND FALSE
+HUGROUND TRUE
+GRNDTYPE VEHICLE
+
+NMTURRET 2
+TURRETPO 0 0.0m 3.12m -1.55m 0deg 0deg 0deg   # Number x y z h p b
+TURRETPT 0 -10deg 85deg 0deg        # Number MinPitch MaxPitch NeutralPitch
+TURRETHD 0 -180deg 180deg 0deg               # Number MinHdg MaxHdg NeutralHdg
+TURRETAM 0 3000                             # Ammo
+TURRETIV 0 0.06sec                              # Number ShootingInterval
+TURRETNH 0 SPAAG_TURRET                       # DNM Node Name (Heading Rotation)
+TURRETNP 0 SPAAG_GUN                        # DNM Node Name
+TURRETAR 0
+TURRETCT 0 GUNNER                            # Controlled by PILOT or GUNNER
+TURRETRG 0 4000m
+TURRETPW 0 5
+
+TURRETPO 1 0.0m 3.12m -1.55m 0deg 0deg 0deg   # Number x y z h p b
+TURRETPT 1 -10deg 85deg 0deg        # Number MinPitch MaxPitch NeutralPitch
+TURRETHD 1 -180deg 180deg 0deg               # Number MinHdg MaxHdg NeutralHdg
+TURRETAM 1 0                             # Ammo
+TURRETIV 1 100.0sec                              # Number ShootingInterval
+TURRETNP 1 RADAR_DISH                        # DNM Node Name
+TURRETAR 1
+TURRETCT 1 GUNNER                            # Controlled by PILOT or GUNNER
+TURRETRG 1 4000m

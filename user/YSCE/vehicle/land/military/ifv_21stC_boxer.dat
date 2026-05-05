@@ -1,0 +1,32 @@
+IDENTIFY [YSCE]IFV_21stC_BOXER
+HTRADIUS 5m
+STRENGTH 6
+MAXSPEED 100km/h
+MAXROTAT 30deg
+ANTIGRND TRUE
+HUGROUND TRUE
+GRNDTYPE TANK
+
+NMTURRET 2
+TURRETPO 0 0.0m 3.0m -1.47m 0deg 0deg 0deg   # Number x y z h p b
+TURRETPT 0 -10deg 45deg 0deg        # Number MinPitch MaxPitch NeutralPitch
+TURRETHD 0 -180deg 180deg 0deg               # Number MinHdg MaxHdg NeutralHdg
+TURRETAM 0 3000                             # Ammo
+TURRETIV 0 0.4sec                              # Number ShootingInterval
+TURRETNH 0 IFV_TURRET                       # DNM Node Name (Heading Rotation)
+TURRETNP 0 IFV_GUN                        # DNM Node Name
+TURRETGD 0
+TURRETCT 0 GUNNER                            # Controlled by PILOT or GUNNER
+TURRETRG 0 3500m
+TURRETPW 0 4
+
+TURRETPO 1 0.0m 3.0m -1.47m 0deg 0deg 0deg   # Number x y z h p b
+TURRETPT 1 -10deg 45deg 0deg        # Number MinPitch MaxPitch NeutralPitch
+TURRETHD 1 -180deg 180deg 0deg               # Number MinHdg MaxHdg NeutralHdg
+TURRETAM 1 3000                             # Ammo
+TURRETIV 1 30sec                              # Number ShootingInterval
+TURRETGD 1
+TURRETCT 1 GUNNER                            # Controlled by PILOT or GUNNER
+TURRETRG 1 5000m
+TURRETPW 1 10
+TURRETWP 1 AGM65
